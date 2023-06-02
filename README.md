@@ -1,39 +1,32 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# O Sullivans Repair Shop
 
-Welcome,
+![github pages live site](https://jay-o-sullivan.github.io/portfolio-1/)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Am I Responsive](assets/images/am-i-responsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+## Index
 
-## Codeanywhere Reminders
+1. [UX](#ux)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+### UX
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+This website is a pc repair shop but also repairs other devices, upgrades hardware and software aswel as building websites for the clients.
+The website shows what the company has to offer and also contact information and location.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### User Stories
 
-`http_server`
+- As a first time user, I want to find out what they have to offer, so that I can decide if it is the best place for me and/or my family to get pc repaired.
+- As a first time user, I want to be able to easily navigate to about the company so i can find out more of what they do.
+- As a first time user, I want to be able to get in contact with the right department, so that i can see if they have everthing for my pc repair and all other information.
+- As a returning user, I want to easily access everything in the site,
+- As a regular user, I want to get straight to the packages, so i can get my membership renewed.
+  
+### Wireframes
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+- [wireframes](assets/images/website-wireframe.pdf)
