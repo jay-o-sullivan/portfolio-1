@@ -115,7 +115,7 @@
         <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="assets/images/ceo.jpg" alt="John" style="width:100%">
+                    <img src="assets/images/ceo.jpg" alt="John the CEO/Founder of the company" style="width:100%">
                     <div class="w3-container">
                         <h3>Jay Hunt</h3>
                         <p class="w3-opacity">CEO & Founder</p>
@@ -128,7 +128,7 @@
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="assets/images/manager.jpg" alt="Jane" style="width:100%">
+                    <img src="assets/images/manager.jpg" alt="Jane the manager of the store" style="width:100%">
                     <div class="w3-container">
                         <h3>Anja Doe</h3>
                         <p class="w3-opacity">Manager</p>
@@ -141,7 +141,7 @@
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="assets/images/design-team.jpg" alt="design-team" style="width:100%">
+                    <img src="assets/images/design-team.jpg" alt="Image of design team" style="width:100%">
                     <div class="w3-container">
                         <h3>Design Team</h3>
                         <p class="w3-opacity">Web Designers</p>
@@ -154,7 +154,7 @@
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="assets/images/hardware-repair.jpg" alt="Repair" style="width:100%">
+                    <img src="assets/images/hardware-repair.jpg" alt="Image of repair team" style="width:100%">
                     <div class="w3-container">
                         <h3>Repair Team</h3>
                         <p class="w3-opacity">Repair Team</p>
@@ -195,39 +195,38 @@
 
         <div class="w3-row-padding" style="margin-top:64px">
             <div class="w3-col l3 m6">
-                <img src="assets/images/web-design.jpg" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Website Design">
+                <img src="assets/images/web-design.jpg" alt="An image containing a notepad" style="width:100%" onclick="onClick(this)"
+                    class="w3-hover-opacity">
             </div>
             <div class="w3-col l3 m6">
-                <img src="assets/images/laptop-repair.jpg" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Laptop Repair">
+                <img src="assets/images/laptop-repair.jpg" alt=" Laptop been repaired " style="width:100%" onclick="onClick(this)"
+                    class="w3-hover-opacity">
             </div>
             <div class="w3-col l3 m6">
-                <img src="assets/images/ps4-controller.jpg" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="PS4 Controller">
+                <img src="assets/images/ps4-controller.jpg" alt="A ps4 controller" style="width:100%" onclick="onClick(this)"
+                    class="w3-hover-opacity" >
             </div>
             <div class="w3-col l3 m6">
-                <img src="assets/images/phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                    alt="Phone Repair">
+                <img src="assets/images/phone.jpg" alt="A phone" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
             </div>
         </div>
 
         <div class="w3-row-padding w3-section">
             <div class="w3-col l3 m6">
                 <img src="assets/images/graphics-card.jpg" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="PC Build">
+                    class="w3-hover-opacity" alt="Image of a graphics cared">
             </div>
             <div class="w3-col l3 m6">
                 <img src="assets/images/gameboy.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                    alt="A camera">
+                    alt="Image of a gameboy">
             </div>
             <div class="w3-col l3 m6">
                 <img src="assets/images/antivirus.jpg" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Antivirus">
+                    class="w3-hover-opacity" alt="Image of Security for Viruses">
             </div>
             <div class="w3-col l3 m6">
                 <img src="assets/images/gaming-setup.jpg" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Gaming setup">
+                    class="w3-hover-opacity" alt="Image of a gaming setup">
             </div>
         </div>
     </div>
@@ -326,19 +325,19 @@
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: srs@mail.com</p>
             <br>
             <form action="/action_page.php" target="_blank">
-                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" aria-label="Name"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email" aria-label="Email"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject" aria-label="Subject"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message" aria-label="Message"></p>
                 <p>
-                    <button class="w3-button w3-black" type="submit">
+                    <button class="w3-button w3-black" type="submit" aria-label="Send Message">
                         <i class="fa fa-paper-plane"></i> SEND MESSAGE
                     </button>
                 </p>
             </form>
             <!-- Image of location/map -->
             <img src="assets/images/dublin.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px"
-                alt="Dublin">
+                alt="Image of location">
         </div>
     </div>
 

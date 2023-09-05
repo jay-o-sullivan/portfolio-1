@@ -25,3 +25,8 @@
  .w3-bar .w3-button {
      padding: 16px;
  }
+
+ /* Ensure interactive elements have visible focus styles */
+ :focus {
+     outline: 2px solid #0078d4;
+ }
