@@ -30,3 +30,60 @@
  :focus {
      outline: 2px solid #0078d4;
  }
+
+ body {
+     color: #333;
+     background-color: #fff;
+ }
+
+ /* Media query for screens smaller than 768px */
+ @media (max-width: 768px) {
+
+     body {
+         font-size: 14px;
+         /* Reduce font size for smartphones */
+     }
+
+     header {
+         text-align: center;
+         /* Center-align header content */
+     }
+
+     .navigation {
+         flex-direction: column;
+         /* Change navigation to a vertical list for smartphones */
+     }
+
+ }
+
+ /* Media query for screens between 768px and 1024px */
+ @media (min-width: 769px) and (max-width: 1024px) {
+
+     body {
+         font-size: 16px;
+         /* Increase font size for tablets */
+     }
+
+     .navigation {
+         justify-content: space-between;
+         /* Space out navigation items for tablets */
+     }
+
+ }
+
+ /* Media query for screens larger than 1024px */
+ @media (min-width: 1025px) {
+     body {
+         font-size: 18px;
+         /* Increase font size for desktops */
+     }
+
+     .container {
+         display: grid;
+         /* Use a grid layout for desktops */
+         grid-template-columns: 1fr 2fr;
+         /* Two-column layout */
+         gap: 20px;
+         /* Add gap between grid items */
+     }
+ }

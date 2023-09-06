@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>O'Sullivan's Repair Shop</title>
+<title>O'Sullivan's Repair Shop - Home</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -55,7 +55,8 @@
                     more</a></p>
         </div>
         <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i
+                    class="fa fa-facebook-official w3-hover-opacity"></i></a>
             <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram w3-hover-opacity"></a>
             <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat w3-hover-opacity"></a>
             <a href="https://www.pinterest.ie/" target="_blank" class="fa fa-pinterest-p w3-hover-opacity"></a>
@@ -92,7 +93,7 @@
         </div>
     </div>
 
-    <!-- Promo Section - "We know design" -->
+    <!-- Promo Section -->
     <div class="w3-container w3-light-grey" style="padding:128px 16px">
         <div class="w3-row-padding">
             <div class="w3-col m6">
@@ -102,8 +103,8 @@
                 <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
             </div>
             <div class="w3-col m6">
-                <img class="w3-image w3-round-large" src="assets/images/hardware.jpg" alt="Hardware" width="500"
-                    height="400">
+                <img class="w3-image w3-round-large" src="assets/images/hardware.jpg" alt="Image of hardware"
+                    width="500" height="400">
             </div>
         </div>
     </div>
@@ -195,19 +196,20 @@
 
         <div class="w3-row-padding" style="margin-top:64px">
             <div class="w3-col l3 m6">
-                <img src="assets/images/web-design.jpg" alt="An image containing a notepad" style="width:100%" onclick="onClick(this)"
+                <img src="assets/images/web-design.jpg" alt="An image containing a notepad" style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="assets/images/laptop-repair.jpg" alt=" Laptop been repaired " style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="assets/images/ps4-controller.jpg" alt="A ps4 controller" style="width:100%"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="assets/images/phone.jpg" alt="A phone" style="width:100%" onclick="onClick(this)"
                     class="w3-hover-opacity">
-            </div>
-            <div class="w3-col l3 m6">
-                <img src="assets/images/laptop-repair.jpg" alt=" Laptop been repaired " style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity">
-            </div>
-            <div class="w3-col l3 m6">
-                <img src="assets/images/ps4-controller.jpg" alt="A ps4 controller" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" >
-            </div>
-            <div class="w3-col l3 m6">
-                <img src="assets/images/phone.jpg" alt="A phone" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
             </div>
         </div>
 
@@ -324,11 +326,15 @@
             <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +353 8151515</p>
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: srs@mail.com</p>
             <br>
-            <form action="/action_page.php" target="_blank">
-                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" aria-label="Name"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email" aria-label="Email"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject" aria-label="Subject"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message" aria-label="Message"></p>
+            <form id="contact" target="_blank" onsubmit="return validateForm()">
+                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"
+                        aria-label="Name"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"
+                        aria-label="Email"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"
+                        aria-label="Subject"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"
+                        aria-label="Message"></p>
                 <p>
                     <button class="w3-button w3-black" type="submit" aria-label="Send Message">
                         <i class="fa fa-paper-plane"></i> SEND MESSAGE
@@ -345,7 +351,8 @@
     <footer class="w3-center w3-black w3-padding-64">
         <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
         <div class="w3-xlarge w3-section">
-            <a href="https://www.facebook.com/" target="_blank"></a><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"></a><i
+                class="fa fa-facebook-official w3-hover-opacity"></i></a>
             <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram w3-hover-opacity"></a>
             <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat w3-hover-opacity"></a>
             <a href="https://www.pinterest.ie/" target="_blank" class="fa fa-pinterest-p w3-hover-opacity"></a>
