@@ -31,9 +31,66 @@
      outline: 2px solid #0078d4;
  }
 
+ /* Primary Color */
  body {
-     color: #333;
-     background-color: #fff;
+     background-color: #607D8B;
+     /* Blue Gray */
+     ;
+ }
+
+ /* Secondary Color */
+ .w3-bar,
+ .w3-button,
+ .w3-hover-opacity,
+ .w3-dropdown-content {
+     background-color: #263238;
+     /* Dark Blue Gray */
+ }
+
+ /* Accent Color */
+ .w3-top .w3-button:hover,
+ .w3-top .w3-button:focus,
+ .w3-sidebar a:hover,
+ .w3-sidebar a:focus {
+     color: #FFD600;
+     /* Yellow */
+ }
+
+ /* Text Color */
+ .w3-text-white {
+     color: #FFFFFF;
+     /* White */
+ }
+
+ /* Card Background Color */
+ .w3-card {
+     background-color: #263238;
+     /* Dark Blue Gray */
+ }
+
+ /* Card Text Color */
+ .w3-card,
+ .w3-card * {
+     color: #FFFFFF;
+     /* White */
+ }
+
+ /* Contact Button Background Color on Hover */
+ .w3-card .w3-button:hover {
+     background-color: #FDD835;
+     /* Yellow */
+ }
+
+ /* Contact Button Text Color on Hover */
+ .w3-card .w3-button:hover {
+     color: #263238;
+     /* Dark Blue Gray */
+ }
+
+ /* Change the color of the menu text to black */
+ .w3-bar-item {
+     color: black !important;
+     /* Use !important to override any existing styles */
  }
 
  /* Media query for screens smaller than 768px */
