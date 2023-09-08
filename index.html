@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<title>O'Sullivan's Repair Shop - Home</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <title>O'Sullivan's Repair Shop - Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Link to the W3.CSS framework for styling -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Link to Google Fonts for custom fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
 
 <body>
 
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-white w3-card" id="myNavbar">
+            <!-- Brand/logo -->
             <a href="#home" class="w3-bar-item w3-button w3-wide">SRS</a>
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small">
@@ -21,10 +29,9 @@
                 <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
                 <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
                 <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-euro"></i> PRICING</a>
-                <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+                <a href="#contact-section" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
             </div>
             <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
             <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
                 onclick="w3_open()">
                 <i class="fa fa-bars"></i>
@@ -41,7 +48,7 @@
         <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
         <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
         <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+        <a href="#contact-section" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
     </nav>
 
     <!-- Header with full-height image -->
@@ -55,6 +62,7 @@
                     more</a></p>
         </div>
         <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+            <!-- Social media links -->
             <a href="https://www.facebook.com/" target="_blank"><i
                     class="fa fa-facebook-official w3-hover-opacity"></i></a>
             <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram w3-hover-opacity"></a>
@@ -100,7 +108,7 @@
                 <h3>We know design.</h3>
                 <p>We only use the best brands and each PC we make the design around what the customer wanted whether it
                     be full RGB or no RGB, Budgets and all Custom Designs. </p>
-                <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+                <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
             </div>
             <div class="w3-col m6">
                 <img class="w3-image w3-round-large" src="assets/images/hardware.jpg" alt="Image of hardware"
@@ -112,18 +120,18 @@
     <!-- Team Section -->
     <div class="w3-container" style="padding:128px 16px" id="team">
         <h3 class="w3-center">THE TEAM</h3>
-        <p class="w3-center w3-large">The ones who runs this company</p>
+        <p class="w3-center w3-large">The ones who run this company</p>
         <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="assets/images/ceo.jpg" alt="John the CEO/Founder of the company" style="width:100%">
+                    <img src="assets/images/ceo.jpg" alt="Jay the CEO/Founder of the company" style="width:100%">
                     <div class="w3-container">
                         <h3>Jay Hunt</h3>
                         <p class="w3-opacity">CEO & Founder</p>
-                        <p>Hello Im Jay Hunt the CEO and Founder of SRS.</p>
-                        <p><button onclick="window.location.href='#contact'" class="w3-button w3-light-grey w3-block"><i
+                        <p>Hello, I'm Jay Hunt, the CEO and Founder of SRS.</p>
+                        <p><a href="#contact-section" class="w3-button w3-light-grey w3-block"><i
                                     class="fa fa-envelope"></i>
-                                Contact </button></p>
+                                Contact</a></p>
                     </div>
                 </div>
             </div>
@@ -133,10 +141,11 @@
                     <div class="w3-container">
                         <h3>Anja Doe</h3>
                         <p class="w3-opacity">Manager</p>
-                        <p>Hello Im Anja Doe the manager of SRS.</p>
-                        <p><button onclick="window.location.href='#contact'" class="w3-button w3-light-grey w3-block"><i
+                        <p>Hello, I'm Anja Doe, the manager of SRS.</p>
+                        <p><a href="#contact-section" class="w3-button w3-light-grey w3-block"><i
                                     class="fa fa-envelope"></i>
-                                Contact </button></p>
+                                Contact</a></p>
+
                     </div>
                 </div>
             </div>
@@ -146,10 +155,11 @@
                     <div class="w3-container">
                         <h3>Design Team</h3>
                         <p class="w3-opacity">Web Designers</p>
-                        <p>Hello We are the Design Team at SRS.</p>
-                        <p><button onclick="window.location.href='#contact'" class="w3-button w3-light-grey w3-block"><i
+                        <p>Hello, we are the Design Team at SRS.</p>
+                        <p><a href="#contact-section" class="w3-button w3-light-grey w3-block"><i
                                     class="fa fa-envelope"></i>
-                                Contact </button></p>
+                                Contact</a></p>
+
                     </div>
                 </div>
             </div>
@@ -159,10 +169,11 @@
                     <div class="w3-container">
                         <h3>Repair Team</h3>
                         <p class="w3-opacity">Repair Team</p>
-                        <p>Hello We are the Repair Team at SRS.</p>
-                        <p><button onclick="window.location.href='#contact'" class="w3-button w3-light-grey w3-block"><i
+                        <p>Hello, we are the Repair Team at SRS.</p>
+                        <p><a href="#contact-section" class="w3-button w3-light-grey w3-block"><i
                                     class="fa fa-envelope"></i>
-                                Contact </button></p>
+                                Contact</a></p>
+
                     </div>
                 </div>
             </div>
@@ -189,6 +200,12 @@
         </div>
     </div>
 
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
     <!-- Work Section -->
     <div class="w3-container" style="padding:128px 16px" id="work">
         <h3 class="w3-center">OUR WORK</h3>
@@ -197,42 +214,40 @@
         <div class="w3-row-padding" style="margin-top:64px">
             <div class="w3-col l3 m6">
                 <img src="assets/images/web-design.jpg" alt="An image containing a notepad" style="width:100%"
-                    onclick="onClick(this)" class="w3-hover-opacity">
+                    onclick="onClick(this)">
             </div>
             <div class="w3-col l3 m6">
                 <img src="assets/images/laptop-repair.jpg" alt=" Laptop been repaired " style="width:100%"
-                    onclick="onClick(this)" class="w3-hover-opacity">
+                    onclick="onClick(this)">
             </div>
             <div class="w3-col l3 m6">
                 <img src="assets/images/ps4-controller.jpg" alt="A ps4 controller" style="width:100%"
-                    onclick="onClick(this)" class="w3-hover-opacity">
+                    onclick="onClick(this)">
             </div>
             <div class="w3-col l3 m6">
-                <img src="assets/images/phone.jpg" alt="A phone" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity">
+                <img src="assets/images/phone.jpg" alt="A phone" style="width:100%" onclick="onClick(this)">
             </div>
         </div>
 
         <div class="w3-row-padding w3-section">
             <div class="w3-col l3 m6">
-                <img src="assets/images/graphics-card.jpg" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Image of a graphics cared">
+                <img src="assets/images/graphics-card.jpg" alt="Image of a graphics card" style="width:100%"
+                    onclick="onClick(this)">
             </div>
             <div class="w3-col l3 m6">
-                <img src="assets/images/gameboy.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                    alt="Image of a gameboy">
+                <img src="assets/images/gameboy.jpg" alt="Image of a gameboy" style="width:100%"
+                    onclick="onClick(this)">
             </div>
             <div class="w3-col l3 m6">
-                <img src="assets/images/antivirus.jpg" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Image of Security for Viruses">
+                <img src="assets/images/antivirus.jpg" alt="Image of Security for Viruses" style="width:100%"
+                    onclick="onClick(this)">
             </div>
             <div class="w3-col l3 m6">
-                <img src="assets/images/gaming-setup.jpg" style="width:100%" onclick="onClick(this)"
-                    class="w3-hover-opacity" alt="Image of a gaming setup">
+                <img src="assets/images/gaming-setup.jpg" alt="Image of a gaming setup" style="width:100%"
+                    onclick="onClick(this)">
             </div>
         </div>
     </div>
-
 
     <!-- Skills Section -->
     <div class="w3-container w3-light-grey w3-padding-64">
@@ -241,7 +256,7 @@
                 <h3>Our Skills.</h3>
                 <p>Excellent Communication, Budget Friendly, Product knowledge, Test Equipment, Software knowledge and
                     overall Maintenance</p>
-                <p>No fix no Fee.</p>
+                <p>No fix, no Fee.</p>
                 <p>Support 24/7 </p>
             </div>
             <div class="w3-col m6">
@@ -278,7 +293,7 @@
                         <span class="w3-opacity">per month</span>
                     </li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+                        <a href="404.html" class="w3-button w3-black w3-padding-large">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -294,7 +309,7 @@
                         <span class="w3-opacity">per month</span>
                     </li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+                        <a href="404.html" class="w3-button w3-black w3-padding-large">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -310,7 +325,7 @@
                         <span class="w3-opacity">per month</span>
                     </li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+                        <a href="404.html" class="w3-button w3-black w3-padding-large">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -318,15 +333,15 @@
     </div>
 
     <!-- Contact Section -->
-    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact-section">
         <h3 class="w3-center">CONTACT</h3>
-        <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+        <p class="w3-center w3-large">Let's get in touch. Send us a message:</p>
         <div style="margin-top:48px">
             <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Dublin, Ireland.</p>
             <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +353 8151515</p>
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: srs@mail.com</p>
             <br>
-            <form id="contact" target="_blank" onsubmit="return validateForm()">
+            <form id="contact-form" target="_blank" onsubmit="return validateForm()">
                 <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"
                         aria-label="Name"></p>
                 <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"
@@ -335,11 +350,9 @@
                         aria-label="Subject"></p>
                 <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"
                         aria-label="Message"></p>
-                <p>
-                    <button class="w3-button w3-black" type="submit" aria-label="Send Message">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                    </button>
-                </p>
+                <button class="w3-button w3-black w3-right w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
             </form>
             <!-- Image of location/map -->
             <img src="assets/images/dublin.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px"
@@ -351,16 +364,14 @@
     <footer class="w3-center w3-black w3-padding-64">
         <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
         <div class="w3-xlarge w3-section">
-            <a href="https://www.facebook.com/" target="_blank"></a><i
-                class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook-official w3-hover-opacity"></a>
             <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram w3-hover-opacity"></a>
             <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat w3-hover-opacity"></a>
             <a href="https://www.pinterest.ie/" target="_blank" class="fa fa-pinterest-p w3-hover-opacity"></a>
             <a href="https://twitter.com/" target="_blank" class="fa fa-twitter w3-hover-opacity"></a>
             <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin w3-hover-opacity"></a>
         </div>
-        <p>Created by Jay O'Sullivan</p>
-        <i class="fa fa-copyright" style="font-size:24px">SRS 2023</i>
+        <p>Powered by <a href="https://www.srs.com" title="SRS" target="_blank" class="w3-hover-text-green">SRS</a></p>
     </footer>
 
     <script src="assets/js/script.js">
