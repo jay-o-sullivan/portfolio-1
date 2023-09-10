@@ -43,28 +43,33 @@ The wireframes below is of the website.
 
 ### Features
 
-- **Service Descriptions:** Provides detailed information about the services offered by the repair shop.
+- **Service Descriptions:**  
+  - Provides detailed information about the services offered by the repair shop.
   ![about](assets/images/about.png)
 
-- **Team Section:** Introduces the team members and their roles.
+- **Team Section:**
+  - Introduces the team members and their roles.
   ![team](assets/images/team.png)
 
-- **Project Showcase:** Displays past projects and work done by the repair shop.
+- **Project Showcase:**
+  - Displays past projects and work done by the repair shop.
   ![work](assets/images/work.png)
 
-- **Pricing Plans:** Offers different pricing plans for services.
+- **Pricing Plans:**
+  - Offers different pricing plans for services.
   ![sign-up](assets/images/sign-up.png)
 
-- **Contact Form:** Allows users to get in touch with the repair shop.
+- **Contact Form:**
+  - Allows users to get in touch with the repair shop.
   ![contact-form](assets/images/contact-form.png)
 
 ### Future Enhancements
 
- **User Accounts:** Implement user accounts for customers to track their repairs.
- **Online Booking:** Allow users to schedule repair appointments online.
- **Live Chat Support:** Add a live chat feature for instant customer support.
- **Customer Reviews:** Include a section for customer reviews and testimonials.
- **Mobile App:** Develop a mobile app for easier access.
+ *User Accounts:* Implement user accounts for customers to track their repairs.
+ *Online Booking:* Allow users to schedule repair appointments online.
+ *Live Chat Support:* Add a live chat feature for instant customer support.
+ *Customer Reviews:* Include a section for customer reviews and testimonials.
+ *Mobile App:* Develop a mobile app for easier access.
 
 ## UX/UI Design
 
@@ -73,7 +78,7 @@ The Colors I went with:
 
  I have focused on providing an engaging and intuitive user experience.
 
-> Some of the key design considerations include:
+ Some of the key design considerations include:
 
   1. A clear and prominent site.
   2. Visual feedback.
@@ -133,7 +138,6 @@ The Colors I went with:
 
 - Visit the team page and verify that team member profiles are displayed correctly.
 - Check that the images and descriptions are aligned properly.
- 
 
 #### Pricing Page Testing
 
@@ -160,9 +164,10 @@ The Colors I went with:
 
 ## Deployment
 
-> The website was created using:
-[CodeAnywhere](https://codeanywhere.com/).
-[github pages](https://pages.github.com/)
+The website was created using:
+
+- [CodeAnywhere](https://codeanywhere.com/).
+- [github pages](https://pages.github.com/)
 
 ### Codeanywhere
 
