@@ -222,7 +222,7 @@ For more information:
 
 ### Media
 
-    Images used in this website were taking from:
+Images used in this website were taking from:
 
 - [am i responsive](http://ami.responsivedesign.is/)
 - [pexels](https://www.pexels.com/)
