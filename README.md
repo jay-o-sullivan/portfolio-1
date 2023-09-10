@@ -65,20 +65,29 @@ The wireframes below is of the website.
 
 ### Future Enhancements
 
- *User Accounts:* Implement user accounts for customers to track their repairs.
- *Online Booking:* Allow users to schedule repair appointments online.
- *Live Chat Support:* Add a live chat feature for instant customer support.
- *Customer Reviews:* Include a section for customer reviews and testimonials.
- *Mobile App:* Develop a mobile app for easier access.
+- *User Accounts:*
+  - Implement user accounts for customers to track their repairs.
+
+- *Online Booking:*
+  - Allow users to schedule repair appointments online.
+
+- *Live Chat Support:*
+  - Add a live chat feature for instant customer support.
+
+- *Customer Reviews:*
+  - Include a section for customer reviews and testimonials.
+
+- *Mobile App:*
+  - Develop a mobile app for easier access.
 
 ## UX/UI Design
 
 The Colors I went with:
 ![color-palette](assets/images/colorPalette.png)
 
- I have focused on providing an engaging and intuitive user experience.
+I have focused on providing an engaging and intuitive user experience.
 
- Some of the key design considerations include:
+  Some of the key design considerations include:
 
   1. A clear and prominent site.
   2. Visual feedback.
@@ -113,7 +122,6 @@ The Colors I went with:
 | Removed syntax errors in readme file. | yes   |
 | Responsive design with media queries  | yes |
 | Contact form submission               | yes |
-
 
 ## Manual Testing
 
