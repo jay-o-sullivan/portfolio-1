@@ -19,12 +19,12 @@ This website is designed to showcase our services, provide information about our
     - [User Stories](#user-stories)
   - [Issues Fixed](#issues-fixed)
   - [Manual Testing](#manual-testing)
-        - [Navigation Testing](#navigation-testing)
-        - [Home Page Testing](#home-page-testing)
-        - [Service Page Testing](#service-page-testing)
-        - [Team Page Testing](#team-page-testing)
-        - [Pricing Page Testing](#pricing-page-testing)
-        - [Contact Form Testing](#contact-form-testing)
+      - [Navigation Testing](#navigation-testing)
+      - [Home Page Testing](#home-page-testing)
+      - [Service Page Testing](#service-page-testing)
+      - [Team Page Testing](#team-page-testing)
+      - [Pricing Page Testing](#pricing-page-testing)
+      - [Contact Form Testing](#contact-form-testing)
   - [Validators Used](#validators-used)
   - [Deployment](#deployment)
     - [Codeanywhere](#codeanywhere)
@@ -37,7 +37,7 @@ This website is designed to showcase our services, provide information about our
 
 ### Wireframes
 
-    The wireframes below is of the website.
+The wireframes below is of the website.
 
 - ![wireframes](assets/testing/website-wireframe.pdf)
 
@@ -45,12 +45,16 @@ This website is designed to showcase our services, provide information about our
 
 - **Service Descriptions:** Provides detailed information about the services offered by the repair shop.
   ![about](assets/images/about.png)
+
 - **Team Section:** Introduces the team members and their roles.
   ![team](assets/images/team.png)
+
 - **Project Showcase:** Displays past projects and work done by the repair shop.
   ![work](assets/images/work.png)
+
 - **Pricing Plans:** Offers different pricing plans for services.
   ![sign-up](assets/images/sign-up.png)
+
 - **Contact Form:** Allows users to get in touch with the repair shop.
   ![contact-form](assets/images/contact-form.png)
 
@@ -71,9 +75,9 @@ The Colors I went with:
 
 > Some of the key design considerations include:
 
-     A clear and prominent site.
-     Visual feedback.
-     Visual indicators for contact form.
+  1. A clear and prominent site.
+  2. Visual feedback.
+  3. Visual indicators for contact form.
 
 ## Technologies Used
 
@@ -88,9 +92,13 @@ The Colors I went with:
 ### User Stories
 
 - As a first time user, I want to find out what they have to offer, so that I can decide if it is the best place for me and/or my family to get pc repaired.
+
 - As a first time user, I want to be able to easily navigate to about the company so i can find out more of what they do.
+
 - As a first time user, I want to be able to get in contact with the right department, so that i can see if they have everthing for my pc repair and all other information.
-- As a returning user, I want to easily access everything in the site,
+
+- As a returning user, I want to easily access everything in the site.
+
 - As a regular user, I want to get straight to the packages, so i can get my membership renewed.
 
 ## Issues Fixed
@@ -101,37 +109,39 @@ The Colors I went with:
 | Responsive design with media queries  | yes |
 | Contact form submission               | yes |
 
+
 ## Manual Testing
 
-##### Navigation Testing
+#### Navigation Testing
 
 - Test all navigation links in the header, footer, and any other menus.
 - Ensure that links to internal pages work correctly and take you to the intended destination.
 - Test external links (e.g., social media links) to make sure they open in new tabs/windows.
 
-##### Home Page Testing
+#### Home Page Testing
 
 - Verify that the home page loads without errors.
 - Check the header and footer for consistency across all pages.
 - Test the "Learn More" or similar buttons to make sure they take you to the relevant service or information.
 
-##### Service Page Testing
+#### Service Page Testing
 
 - For each service offered (e.g., PC repair, hardware upgrades), visit the respective service page.
 - Ensure that service descriptions and prices are accurate.
 
-##### Team Page Testing
+#### Team Page Testing
 
 - Visit the team page and verify that team member profiles are displayed correctly.
 - Check that the images and descriptions are aligned properly.
-  
-##### Pricing Page Testing
+ 
+
+#### Pricing Page Testing
 
 - Test the pricing plans or packages page.
 - Verify that all pricing details and options are accurate.
 - Check that any "Sign Up" button work as expected.
 
-##### Contact Form Testing
+#### Contact Form Testing
 
 - Go to the contact page.
 - Test the contact form by filling it out with valid and invalid data.
@@ -150,9 +160,9 @@ The Colors I went with:
 
 ## Deployment
 
-    The website was created using 
-        [CodeAnywhere](https://codeanywhere.com/).
-        [github pages](https://pages.github.com/)
+> The website was created using:
+[CodeAnywhere](https://codeanywhere.com/).
+[github pages](https://pages.github.com/)
 
 ### Codeanywhere
 
@@ -167,12 +177,12 @@ The Colors I went with:
 
 There is different approaches should you choose to use GitPod to clone the project, or a different IDE.
 
-    Use web browser -- google -- firefox etc.
-    Login to your github account or sign up if you haven't.
-    Install the gitpod extenstion for your browser.
-    In github find the repository.
-    Click on gitpod button.
-    New workspace will open containing the project code.
+  Use web browser -- google -- firefox etc.
+  Login to your github account or sign up if you haven't.
+  Install the gitpod extenstion for your browser.
+  In github find the repository.
+  Click on gitpod button.
+  New workspace will open containing the project code.
 
 ## Cloning
 
